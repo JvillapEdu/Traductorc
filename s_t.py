@@ -16,10 +16,10 @@ from googletrans import Translator
 
 
 st.title("TRADUCTOR.")
-st.subheader("Escucho lo que quieres traducir.")
+st.subheader("Habla y yo escucho lo que quieres traducir.")
 
 
-image = Image.open('OIG7.jpg')
+image = Image.open('TraduJV.jpg')
 
 st.image(image,width=300)
 with st.sidebar:
